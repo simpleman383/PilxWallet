@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/currency_BTC_USD_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorGrey"
+                android:padding="5dp"
+                android:text="@string/rate_BTC_USD_label"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/currency_BTC_USD_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/rate_BTC_USD_value_default" />
+
+            <TextView
+                android:id="@+id/currency_BTC_EUR_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:background="@color/colorGrey"
+                android:textSize="18dp"
+                android:text="@string/rate_BTC_EUR_label" />
+
+            <TextView
+                android:id="@+id/currency_BTC_EUR_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/rate_BTC_EUR_value_default" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
