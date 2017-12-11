@@ -56,17 +56,9 @@ public class RateModel {
         return 0;
     }
 
-    public String[] getCachedCurrencies() {
-        ArrayList<String> currencies = new ArrayList<>();
-        for (Currency currency : rates.keySet()) {
-            currencies.add(currency.name());
-        }
-        return currencies.toArray(new String[currencies.size()]);
-    }
-
-
     public String[] getCurrencies() {
-        updateModel();
+        if (rates.size() == 0)
+            updateModel();
         ArrayList<String> currencies = new ArrayList<>();
         for (Currency currency : rates.keySet()) {
             currencies.add(currency.name());

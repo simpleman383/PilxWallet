@@ -11,6 +11,8 @@
     <string name="chart">chart</string>
     <string name="history">history</string>
 
+    <!-- balance fragment string section -->
+    <string name="balance_label">balance:</string>
 
     <!-- rate fragment string section -->
     <string name="rate_BTC_USD_label">BTC USD</string>

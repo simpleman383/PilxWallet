@@ -14,7 +14,6 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,13 +21,11 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TabHost;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.payture.pilxwallet.IView;
-import com.payture.pilxwallet.MainActivity;
+import com.payture.pilxwallet.main.IView;
+import com.payture.pilxwallet.main.MainActivity;
 import com.payture.pilxwallet.R;
 import com.payture.pilxwallet.data.DTO.ExchangeDTO;
-import com.payture.pilxwallet.rate.RatePresenter;
 import com.payture.pilxwallet.utils.Formatter;
 
 /**

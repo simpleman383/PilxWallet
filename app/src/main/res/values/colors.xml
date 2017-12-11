@@ -5,6 +5,7 @@
 
     <color name="colorAccent">#303F9F</color> <!--#FF4081-->
 
+    <color name="colorBlack">#000000</color>
     <color name="colorTheme">#303F9F</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorGrey">#BEBEBE</color>

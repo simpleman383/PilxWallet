@@ -17,7 +17,7 @@ public class ExchangeModel {
         type = null;
         amount = 0.0;
         cost = 0.0;
-        currency = RateModel.getInstance().getCachedCurrencies()[0];
+        currency = RateModel.getInstance().getCurrencies()[0];
     }
 
     public String getType() {
